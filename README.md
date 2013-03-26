@@ -1,7 +1,7 @@
 Jumbo Frames for Rails!
 =======================
 
-I like to do all of my system configuration in my Rails app. If we modify SSL configuration with `force_ssl`, why not change MTU size as well? Why stop at meddling with the transport layer from the application layer if we can get all the way down to the data link layer? This gem lets you do just that!
+I do all of my system configuration through my Rails app and a large collection of gems. If we modify SSL configuration with `force_ssl`, why not change MTU size as well? Why stop at meddling with the transport layer from the application layer if we can get all the way down to the data link layer? This gem lets you do just that!
 
 Guaranteed gigabit speedups with Rails
 --------------------------------------
