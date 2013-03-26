@@ -15,3 +15,8 @@ Benchmarks
 ----------
 
 This gem increases by your MTU by 6x on average, so on some benchmarks you'll be able to see a six-fold increase in network performance! It's magic!
+
+Known issues
+------------
+
+Currently, jumboframes assumes your gigabit NIC is `eth0`. Feel free to modify the source if need be; future versions will allow for configuration.
